@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1767776756582,
@@ -16,6 +16,10 @@
                 {
                     "date": 1767777832484,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+{\r\n+  \"redirects\": [\r\n+    {\r\n+      \"source\": \"/\",\r\n+      \"destination\": \"/home\",\r\n+      \"permanent\": true\r\n+    }\r\n+  ],\r\n+  \"rewrites\": [\r\n+    {\r\n+      \"source\": \"/api/:path*\",\r\n+      \"destination\": \"https://server-dj-vue.vercel.app/api/:path\"\r\n+    },\r\n+    {\r\n+      \"source\": \"/(.*)\",\r\n+      \"destination\": \"/index.html\"\r\n+    }\r\n+  ]\r\n+}\r\n"
+                },
+                {
+                    "date": 1767777968747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,5 @@\n {\r\n-  \"redirects\": [\r\n-    {\r\n-      \"source\": \"/\",\r\n-      \"destination\": \"/\",\r\n-      \"permanent\": true\r\n-    }\r\n-  ],\r\n   \"rewrites\": [\r\n     {\r\n       \"source\": \"/api/:path*\",\r\n       \"destination\": \"https://server-dj-vue.vercel.app/api/:path\"\r\n"
                 }
             ],
             "date": 1767776756582,
