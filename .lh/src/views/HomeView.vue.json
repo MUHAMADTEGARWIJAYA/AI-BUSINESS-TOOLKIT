@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/views/HomeView.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1767769888244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767769895745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n-<script setup>\n-import TheWelcome from '../components/TheWelcome.vue'\n-</script>\n \n+\n <template>\n   <h1 class=\"text-red-700 font-bold\">Home</h1>\n </template>\n"
+                },
+                {
+                    "date": 1767770975539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,21 @@\n <template>\n-  <h1 class=\"text-red-700 font-bold\">Home</h1>\n+  <div class=\"min-h-screen bg-gray-100 flex justify-center items-start p-6\">\n+    <!-- Container -->\n+    <div class=\"w-full max-w-5xl\">\n+      <h1 class=\"text-red-700 font-bold text-2xl mb-4\">Home</h1>\n+\n+      <!-- Background Image -->\n+      <div\n+        class=\"w-full h-64 rounded-xl bg-cover bg-center shadow-lg\"\n+        style=\"background-image: url('/images/bg-home.jpg');\"\n+      >\n+        <!-- Optional content di atas background -->\n+        <div class=\"w-full h-full bg-black/40 rounded-xl flex items-center justify-center\">\n+          <h2 class=\"text-white text-xl font-semibold\">\n+            Selamat Datang\n+          </h2>\n+        </div>\n+      </div>\n+    </div>\n+  </div>\n </template>\n"
+                }
+            ],
+            "date": 1767769888244,
+            "name": "Commit-0",
+            "content": "<script setup>\nimport TheWelcome from '../components/TheWelcome.vue'\n</script>\n\n<template>\n <h1 class=\"text-red-700\">Home</h1>\n</template>\n"
+        }
+    ]
+}

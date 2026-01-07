@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/views/NamaFloating.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1767772816757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767772902920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\n-  <div class=\"min-h-screen bg-white overflow-hidden py-20\">\n+  <div class=\"min-h-screen bg-white overflow-hidden \">\n     <div class=\"space-y-12\">\n       <!-- Line 1 - Nama 1-10 Gerak ke Kanan -->\n       <div class=\"relative h-20 flex items-center overflow-hidden\">\n         <div class=\"scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute\">\n"
+                },
+                {
+                    "date": 1767772908004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\n-  <div class=\"min-h-screen bg-white overflow-hidden\">\n+  <div class=\"min-h-screen bg-white overflow-hidden py-10\">\n     <div class=\"space-y-12\">\n       <!-- Line 1 - Nama 1-10 Gerak ke Kanan -->\n       <div class=\"relative h-20 flex items-center overflow-hidden\">\n         <div class=\"scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute\">\n"
+                },
+                {
+                    "date": 1767772913886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\n-  <div class=\"min-h-screen bg-white overflow-hidden py-10\">\n+  <div class=\"min-h-screen bg-white overflow-hidden py-10 bg-red-200\">\n     <div class=\"space-y-12\">\n       <!-- Line 1 - Nama 1-10 Gerak ke Kanan -->\n       <div class=\"relative h-20 flex items-center overflow-hidden\">\n         <div class=\"scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute\">\n"
+                }
+            ],
+            "date": 1767772816757,
+            "name": "Commit-0",
+            "content": "<template>\r\n  <div class=\"min-h-screen bg-white overflow-hidden py-20\">\r\n    <div class=\"space-y-12\">\r\n      <!-- Line 1 - Nama 1-10 Gerak ke Kanan -->\r\n      <div class=\"relative h-20 flex items-center overflow-hidden\">\r\n        <div class=\"scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute\">\r\n          <div\r\n            v-for=\"(nama, idx) in line1Double\"\r\n            :key=\"idx\"\r\n            class=\"floating-card inline-block px-8 py-3 bg-white border-2 border-black rounded-full\"\r\n          >\r\n            <span class=\"text-black font-medium text-base\">{{ nama }}</span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <!-- Line 2 - Nama 11-21 Gerak ke Kiri -->\r\n      <div class=\"relative h-20 flex items-center overflow-hidden\">\r\n        <div class=\"scroll-container animate-scroll-left flex gap-4 whitespace-nowrap absolute\">\r\n          <div\r\n            v-for=\"(nama, idx) in line2Double\"\r\n            :key=\"idx\"\r\n            class=\"floating-card inline-block px-8 py-3 bg-white border-2 border-black rounded-full\"\r\n          >\r\n            <span class=\"text-black font-medium text-base\">{{ nama }}</span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <!-- Title -->\r\n    <div class=\"text-center mt-16\">\r\n      <h1 class=\"text-5xl font-bold text-black mb-3\">Floating Names</h1>\r\n      <p class=\"text-gray-600 text-lg\">Hover untuk menghentikan animasi</p>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { computed } from 'vue';\r\n\r\n// Line 1: Nama 1-10 (gerak ke kanan)\r\nconst line1 = [\r\n  \"Ahmad Fauzi\",\r\n  \"Budi Santoso\",\r\n  \"Citra Lestari\",\r\n  \"Dewi Anggraini\",\r\n  \"Eko Prasetyo\",\r\n  \"Fajar Ramadhan\",\r\n  \"Gita Permata\",\r\n  \"Hadi Saputra\",\r\n  \"Indah Puspitasari\",\r\n  \"Joko Widodo\"\r\n];\r\n\r\n// Line 2: Nama 11-21 (gerak ke kiri)\r\nconst line2 = [\r\n  \"Kurniawan Dwi\",\r\n  \"Lia Amelia\",\r\n  \"Muhammad Rizki\",\r\n  \"Nanda Putri\",\r\n  \"Oki Setiawan\",\r\n  \"Putra Pratama\",\r\n  \"Rina Oktaviani\",\r\n  \"Sandi Mahendra\",\r\n  \"Tia Ayuningtyas\",\r\n  \"Umar Hakim\",\r\n  \"Vina Safitri\"\r\n];\r\n\r\n// Duplicate arrays untuk seamless loop\r\nconst line1Double = computed(() => [...line1, ...line1]);\r\nconst line2Double = computed(() => [...line2, ...line2]);\r\n</script>\r\n\r\n<style scoped>\r\n@keyframes scrollRight {\r\n  0% {\r\n    transform: translateX(0);\r\n  }\r\n  100% {\r\n    transform: translateX(-50%);\r\n  }\r\n}\r\n\r\n@keyframes scrollLeft {\r\n  0% {\r\n    transform: translateX(-50%);\r\n  }\r\n  100% {\r\n    transform: translateX(0);\r\n  }\r\n}\r\n\r\n.animate-scroll-right {\r\n  animation: scrollRight 50s linear infinite;\r\n}\r\n\r\n.animate-scroll-left {\r\n  animation: scrollLeft 50s linear infinite;\r\n}\r\n\r\n.floating-card {\r\n  transition: all 0.3s ease;\r\n}\r\n\r\n.floating-card:hover {\r\n  transform: translateY(-3px);\r\n  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.scroll-container:has(.floating-card:hover) {\r\n  animation-play-state: paused;\r\n}\r\n</style>\r\n"
+        }
+    ]
+}

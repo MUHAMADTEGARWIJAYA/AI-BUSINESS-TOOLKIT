@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1767771833011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1767771833011,
+            "name": "Commit-0",
+            "content": "import './assets/main.css'\n\nimport { createApp } from 'vue'\nimport App from './App.vue'\nimport router from './router'\n\nconst app = createApp(App)\n\napp.use(router)\n\napp.mount('#app')\n"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/views/FooterView.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1767775643970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767775682521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\n-  <footer class=\"bg-neutral-900 border-t border-neutral-700 mt-16\">\n+  <footer class=\" border-t border-neutral-700 mt-16\">\n     <div class=\"max-w-7xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-3\">\n       <!-- About -->\n       <div>\n         <h3 class=\"text-white text-lg font-semibold mb-3\">AI Tools Explorer</h3>\n"
+                },
+                {
+                    "date": 1767775710683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <template>\n-  <footer class=\"border-t border-neutral-700 mt-16\">\n+  <footer class=\"border-t text-gray-400 border-neutral-700 mt-16\">\n     <div class=\"max-w-7xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-3\">\n       <!-- About -->\n       <div>\n         <h3 class=\"text-white text-lg font-semibold mb-3\">AI Tools Explorer</h3>\n"
+                }
+            ],
+            "date": 1767775643970,
+            "name": "Commit-0",
+            "content": "<template>\n  <footer class=\"bg-neutral-900 border-t border-neutral-700 mt-16\">\n    <div class=\"max-w-7xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-3\">\n\n      <!-- About -->\n      <div>\n        <h3 class=\"text-white text-lg font-semibold mb-3\">\n          AI Tools Explorer\n        </h3>\n        <p class=\"text-gray-400 text-sm leading-relaxed\">\n          Platform eksplorasi penerapan Artificial Intelligence\n          pada berbagai bidang operasional, SDM, dan strategi\n          pengambilan keputusan.\n        </p>\n      </div>\n\n      <!-- Navigation -->\n      <div>\n        <h3 class=\"text-white text-lg font-semibold mb-3\">\n          Navigasi\n        </h3>\n        <ul class=\"space-y-2 text-sm\">\n          <li>\n            <router-link\n              to=\"/\"\n              class=\"text-gray-400 hover:text-white transition\"\n            >\n              Home\n            </router-link>\n          </li>\n          <li>\n            <router-link\n              to=\"/ai/operasional\"\n              class=\"text-gray-400 hover:text-white transition\"\n            >\n              Operasional AI\n            </router-link>\n          </li>\n          <li>\n            <router-link\n              to=\"/ai/sdm\"\n              class=\"text-gray-400 hover:text-white transition\"\n            >\n              AI untuk SDM\n            </router-link>\n          </li>\n          <li>\n            <router-link\n              to=\"/ai/strategi\"\n              class=\"text-gray-400 hover:text-white transition\"\n            >\n              Strategi AI\n            </router-link>\n          </li>\n        </ul>\n      </div>\n\n      <!-- Contact / Social -->\n      <div>\n        <h3 class=\"text-white text-lg font-semibold mb-3\">\n          Kontak\n        </h3>\n        <ul class=\"space-y-2 text-sm text-gray-400\">\n          <li>Email: admin@aitools.com</li>\n          <li>Universitas / Institusi</li>\n          <li class=\"flex gap-3 mt-3\">\n            <a\n              href=\"#\"\n              class=\"hover:text-white transition\"\n              title=\"GitHub\"\n            >\n              🐙\n            </a>\n            <a\n              href=\"#\"\n              class=\"hover:text-white transition\"\n              title=\"LinkedIn\"\n            >\n              💼\n            </a>\n            <a\n              href=\"#\"\n              class=\"hover:text-white transition\"\n              title=\"Website\"\n            >\n              🌐\n            </a>\n          </li>\n        </ul>\n      </div>\n    </div>\n\n    <!-- Bottom -->\n    <div class=\"border-t border-neutral-700 text-center py-4\">\n      <p class=\"text-gray-500 text-sm\">\n        © {{ new Date().getFullYear() }} AI Tools Explorer. All rights reserved.\n      </p>\n    </div>\n  </footer>\n</template>\n"
+        }
+    ]
+}
