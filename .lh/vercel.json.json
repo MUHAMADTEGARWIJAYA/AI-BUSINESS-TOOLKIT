@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1767776756582,
@@ -12,6 +12,10 @@
                 {
                     "date": 1767777113767,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,5 @@\n {\r\n-  \"version\": 2,\r\n-  \"builds\": [\r\n-    {\r\n-      \"src\": \"package.json\",\r\n-      \"use\": \"@vercel/static-build\",\r\n-      \"config\": {\r\n-        \"distDir\": \"dist\"\r\n-      }\r\n-    }\r\n-  ],\r\n   \"routes\": [\r\n     {\r\n       \"src\": \"/(.*)\",\r\n       \"dest\": \"/index.html\"\r\n"
+                },
+                {
+                    "date": 1767777832484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+{\r\n+  \"redirects\": [\r\n+    {\r\n+      \"source\": \"/\",\r\n+      \"destination\": \"/home\",\r\n+      \"permanent\": true\r\n+    }\r\n+  ],\r\n+  \"rewrites\": [\r\n+    {\r\n+      \"source\": \"/api/:path*\",\r\n+      \"destination\": \"https://server-dj-vue.vercel.app/api/:path\"\r\n+    },\r\n+    {\r\n+      \"source\": \"/(.*)\",\r\n+      \"destination\": \"/index.html\"\r\n+    }\r\n+  ]\r\n+}\r\n"
                 }
             ],
             "date": 1767776756582,

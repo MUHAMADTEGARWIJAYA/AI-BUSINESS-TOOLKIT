@@ -6,11 +6,13 @@
     <div class="space-y-6">
       <!-- Line 1 - Nama 1-10 Gerak ke Kanan -->
       <div class="relative h-20 flex overflow-hidden">
-        <div class="scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute">
+        <div
+          class="scroll-container bg-red-800 animate-scroll-right flex gap-4 whitespace-nowrap absolute"
+        >
           <div
             v-for="(nama, idx) in line1Double"
             :key="idx"
-            class="floating-card inline-block md:px-8 px-3 py-1 bg-white"
+            class="floating-card inline-block px-8 py-1 bg-white"
           >
             <span class="text-black font-medium text-base">{{ nama }}</span>
           </div>
@@ -23,7 +25,7 @@
           <div
             v-for="(nama, idx) in line2Double"
             :key="idx"
-            class="floating-card inline-block md:px-8 px-3 py-1 bg-white"
+            class="floating-card inline-block px-8 py-1 bg-white"
           >
             <span class="text-black font-medium text-base">{{ nama }}</span>
           </div>

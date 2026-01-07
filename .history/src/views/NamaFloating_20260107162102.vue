@@ -10,7 +10,7 @@
           <div
             v-for="(nama, idx) in line1Double"
             :key="idx"
-            class="floating-card inline-block md:px-8 px-3 py-1 bg-white"
+            class="floating-card inline-block px-8 py-1 bg-white"
           >
             <span class="text-black font-medium text-base">{{ nama }}</span>
           </div>
@@ -23,7 +23,7 @@
           <div
             v-for="(nama, idx) in line2Double"
             :key="idx"
-            class="floating-card inline-block md:px-8 px-3 py-1 bg-white"
+            class="floating-card inline-block px-8 py-1 bg-white"
           >
             <span class="text-black font-medium text-base">{{ nama }}</span>
           </div>
