@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1767776756582,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767777113767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,5 @@\n {\r\n-  \"version\": 2,\r\n-  \"builds\": [\r\n-    {\r\n-      \"src\": \"package.json\",\r\n-      \"use\": \"@vercel/static-build\",\r\n-      \"config\": {\r\n-        \"distDir\": \"dist\"\r\n-      }\r\n-    }\r\n-  ],\r\n   \"routes\": [\r\n     {\r\n       \"src\": \"/(.*)\",\r\n       \"dest\": \"/index.html\"\r\n"
                 }
             ],
             "date": 1767776756582,
