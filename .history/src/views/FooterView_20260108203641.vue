@@ -53,48 +53,10 @@
         <ul class="space-y-2 text-sm text-gray-400">
           <li>Email: admin@aitools.com</li>
           <li>Universitas Sahid Surakarta</li>
-          <li class="flex gap-4 mt-3 items-center">
-            <!-- Instagram -->
-            <a
-              href="https://instagram.com/usernamekamu"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hover:text-pink-500 transition"
-              title="Instagram"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2Zm0 1.5C5.4 3.5 3.5 5.4 3.5 7.75v8.5c0 2.35 1.9 4.25 4.25 4.25h8.5c2.35 0 4.25-1.9 4.25-4.25v-8.5c0-2.35-1.9-4.25-4.25-4.25h-8.5Z"
-                />
-                <path
-                  d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 1.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z"
-                />
-                <circle cx="17.5" cy="6.5" r="1.25" />
-              </svg>
-            </a>
-
-            <!-- Email -->
-            <a
-              href="mailto:emailkamu@gmail.com"
-              class="hover:text-blue-400 transition"
-              title="Email"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
-                />
-              </svg>
-            </a>
+          <li class="flex gap-3 mt-3">
+            <a href="#" class="hover:text-white transition" title="GitHub"> 🐙 </a>
+            <a href="#" class="hover:text-white transition" title="LinkedIn"> 💼 </a>
+            <a href="#" class="hover:text-white transition" title="Website"> 🌐 </a>
           </li>
         </ul>
       </div>

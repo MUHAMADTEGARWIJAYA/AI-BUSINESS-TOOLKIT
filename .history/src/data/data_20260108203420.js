@@ -548,7 +548,7 @@ export const aistrategi = [
 export const hrAiTools = [
   {
     id: 1,
-    tools: "HireVue",
+    name: "HireVue",
     usage: "Analisis wawancara video otomatis",
     impact: "Seleksi kandidat lebih objektif",
     department: "Rekrutmen",
@@ -557,7 +557,7 @@ export const hrAiTools = [
   },
   {
     id: 2,
-    tools: "Pymetrics",
+    name: "Pymetrics",
     usage: "Analisis soft skill berbasis AI",
     impact: "Kecocokan kandidat lebih akurat",
     department: "HR, Rekrutmen",
@@ -566,7 +566,7 @@ export const hrAiTools = [
   },
   {
     id: 3,
-    tools: "Eightfold AI",
+    name: "Eightfold AI",
     usage: "Talent intelligence & career matching",
     impact: "Retensi karyawan meningkat",
     department: "HR, Talent Management",
@@ -575,7 +575,7 @@ export const hrAiTools = [
   },
   {
     id: 4,
-    tools: "LinkedIn Talent Insights",
+    name: "LinkedIn Talent Insights",
     usage: "Analisis pasar tenaga kerja",
     impact: "Strategi rekrut lebih tepat",
     department: "HR",
@@ -584,7 +584,7 @@ export const hrAiTools = [
   },
   {
     id: 5,
-    tools: "Workday HCM",
+    name: "Workday HCM",
     usage: "Manajemen SDM & prediksi kebutuhan tenaga kerja",
     impact: "HR lebih terintegrasi",
     department: "HR, Manajemen",
@@ -593,7 +593,7 @@ export const hrAiTools = [
   },
   {
     id: 6,
-    tools: "SAP SuccessFactors",
+    name: "SAP SuccessFactors",
     usage: "Rekrutmen & manajemen kinerja berbasis AI",
     impact: "Evaluasi karyawan lebih objektif",
     department: "HR",
@@ -602,7 +602,7 @@ export const hrAiTools = [
   },
   {
     id: 7,
-    tools: "Cornerstone",
+    name: "Cornerstone",
     usage: "Learning & talent development AI",
     impact: "Pengembangan karyawan lebih efektif",
     department: "HR, Learning & Development",
@@ -611,7 +611,7 @@ export const hrAiTools = [
   },
   {
     id: 8,
-    tools: "BambooHR",
+    name: "BambooHR",
     usage: "Manajemen data karyawan",
     impact: "Administrasi HR lebih rapi",
     department: "HR",
@@ -620,7 +620,7 @@ export const hrAiTools = [
   },
   {
     id: 9,
-    tools: "Gloat",
+    name: "Gloat",
     usage: "Internal talent marketplace",
     impact: "Mobilitas karier meningkat",
     department: "HR",
@@ -629,7 +629,7 @@ export const hrAiTools = [
   },
   {
     id: 10,
-    tools: "Textio",
+    name: "Textio",
     usage: "Optimasi job description",
     impact: "Lowongan lebih menarik kandidat",
     department: "HR",
@@ -638,7 +638,7 @@ export const hrAiTools = [
   },
   {
     id: 11,
-    tools: "Zoho Recruit",
+    name: "Zoho Recruit",
     usage: "ATS & manajemen pelamar",
     impact: "Rekrutmen lebih terstruktur",
     department: "HR",
@@ -647,7 +647,7 @@ export const hrAiTools = [
   },
   {
     id: 12,
-    tools: "Freshteam",
+    name: "Freshteam",
     usage: "ATS & onboarding otomatis",
     impact: "HR lebih efisien",
     department: "HR",
@@ -656,7 +656,7 @@ export const hrAiTools = [
   },
   {
     id: 13,
-    tools: "Google Forms",
+    name: "Google Forms",
     usage: "Survei & feedback karyawan",
     impact: "Evaluasi SDM lebih cepat",
     department: "HR",
@@ -665,7 +665,7 @@ export const hrAiTools = [
   },
   {
     id: 14,
-    tools: "Notion AI",
+    name: "Notion AI",
     usage: "Dokumentasi SOP & kebijakan HR",
     impact: "Dokumen HR lebih rapi",
     department: "HR",
@@ -674,7 +674,7 @@ export const hrAiTools = [
   },
   {
     id: 15,
-    tools: "Trello",
+    name: "Trello",
     usage: "Workflow rekrut & onboarding",
     impact: "Proses HR lebih terorganisir",
     department: "HR",

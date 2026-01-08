@@ -4,7 +4,7 @@
       Supervised By: Raden Arya
     </h1>
 
-    <div class="">
+    <div class="space-y-6">
       <!-- Line 1 - Nama 1–10 Gerak ke Kanan -->
       <div class="relative h-20 flex overflow-hidden">
         <div class="scroll-container animate-scroll-right flex gap-4 whitespace-nowrap absolute">
@@ -52,7 +52,7 @@ import { computed } from 'vue'
 
 // Line 1: Nama 1–10 (gerak ke kanan)
 const line1 = [
-  'Yonolimitze',
+  'yonolimitze',
   '단이 Danyi',
   'salvator',
   'dxxta0 bella',

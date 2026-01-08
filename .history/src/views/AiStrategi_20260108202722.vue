@@ -11,9 +11,8 @@ import { aistrategi } from '@/data/data.js'
         style="background-image: url('/ai.png')"
       ></div>
     </div>
-
-    <div class="p-8">
-      <h1 class="text-black text-2xl font-bold mb-4">Explore AI Tools</h1>
+    <h1 class="text-black text-2xl font-bold mb-4">Explore AI Tools</h1>
+    <div>
       <div class="overflow-x-auto border bg-white border-neutral-300 rounded-xl">
         <table class="min-w-full text-sm text-left">
           <!-- Header -->
@@ -59,6 +58,8 @@ import { aistrategi } from '@/data/data.js'
           </tbody>
         </table>
       </div>
+
+      //jaja
     </div>
   </div>
 </template>

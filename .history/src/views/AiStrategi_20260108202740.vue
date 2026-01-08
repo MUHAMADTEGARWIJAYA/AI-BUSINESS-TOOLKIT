@@ -59,6 +59,8 @@ import { aistrategi } from '@/data/data.js'
           </tbody>
         </table>
       </div>
+
+      //jaja
     </div>
   </div>
 </template>

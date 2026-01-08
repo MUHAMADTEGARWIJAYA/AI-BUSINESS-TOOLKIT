@@ -1,5 +1,5 @@
 <script setup>
-import { aistrategi } from '@/data/data.js'
+import { aiTableData } from '@/data/data.js'
 </script>
 
 <template>
@@ -11,10 +11,10 @@ import { aistrategi } from '@/data/data.js'
         style="background-image: url('/ai.png')"
       ></div>
     </div>
-
-    <div class="p-8">
+    <div>
       <h1 class="text-black text-2xl font-bold mb-4">Explore AI Tools</h1>
-      <div class="overflow-x-auto border bg-white border-neutral-300 rounded-xl">
+
+      <div class="overflow-x-auto border border-neutral-300 rounded-xl">
         <table class="min-w-full text-sm text-left">
           <!-- Header -->
           <thead class="text-black uppercase">
@@ -30,7 +30,7 @@ import { aistrategi } from '@/data/data.js'
 
           <!-- Body -->
           <tbody>
-            <tr v-for="(item, index) in aistrategi" :key="item.id" class="border-t transition">
+            <tr v-for="(item, index) in aiTableData" :key="item.id" class="border-t transition">
               <td class="px-4 py-3 text-black">
                 {{ index + 1 }}
               </td>
