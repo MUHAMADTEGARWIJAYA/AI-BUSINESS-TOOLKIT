@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1767775865066,
@@ -32,6 +32,10 @@
                 {
                     "date": 1767878961828,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n         class=\"w-full h-96 rounded-xl bg-cover bg-no-repeat bg-center\"\n         style=\"background-image: url('/ai.png')\"\n       ></div>\n     </div>\n-    <div>\n+    <div class=\"p-8\">\n       <h1 class=\"text-black text-2xl font-bold mb-4\">Explore AI Tools</h1>\n \n       <div class=\"overflow-x-auto border border-neutral-300 rounded-xl\">\n         <table class=\"min-w-full text-sm text-left\">\n"
+                },
+                {
+                    "date": 1768134882566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <div class=\"w-full max-w-full mb-10\">\n       <!-- Background Image -->\n       <div\n         class=\"w-full h-96 rounded-xl bg-cover bg-no-repeat bg-center\"\n-        style=\"background-image: url('/ai.png')\"\n+        style=\"background-image: url('/DIVISI\\ AKUNTANSI\\ DAN\\ KEUANGAN.png')\"\n       ></div>\n     </div>\n     <div class=\"p-8\">\n       <h1 class=\"text-black text-2xl font-bold mb-4\">Explore AI Tools</h1>\n"
                 }
             ],
             "date": 1767775865066,

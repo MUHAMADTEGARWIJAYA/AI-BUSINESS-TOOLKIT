@@ -10,7 +10,7 @@
     <div class="w-full">
       <NamaFloating />
     </div>
-    <!-- <div class="aurora-container">
+    <div class="aurora-container">
       <Aurora
         :color-stops="['#7cff67', '#171D22', '#7cff67']"
         :amplitude="1.0"
@@ -19,7 +19,7 @@
         :intensity="1.0"
         class="w-full h-full"
       />
-    </div> -->
+    </div>
     <div class="w-full flex justify-center px-10 md:px-0 items-center">
       <div class="min-h-screen space-y-4">
         <h1 class="text-white text-2xl font-bold mb-6">Lingkup Penerapan AI</h1>

@@ -8,7 +8,9 @@ import { aiTableData } from '@/data/data.js'
       <!-- Background Image -->
       <div
         class="w-full h-96 rounded-xl bg-cover bg-no-repeat bg-center"
-        style="background-image: url('/DIVISI\ UNTUK\ OPERASIONAL\ DAN\ PROSES\ INTERNAL.png')"
+        style="
+          background-image: url('/public/DIVISI\ UNTUK\ OPERASIONAL\ DAN\ PROSES\ INTERNAL.png');
+        "
       ></div>
     </div>
     <div class="p-8">

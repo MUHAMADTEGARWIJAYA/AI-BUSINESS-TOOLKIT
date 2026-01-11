@@ -10,8 +10,8 @@
     <div class="w-full">
       <NamaFloating />
     </div>
-    <!-- <div class="aurora-container">
-      <Aurora
+    <div class="aurora-container">
+      <AuroraView
         :color-stops="['#7cff67', '#171D22', '#7cff67']"
         :amplitude="1.0"
         :blend="0.5"
@@ -19,7 +19,7 @@
         :intensity="1.0"
         class="w-full h-full"
       />
-    </div> -->
+    </div>
     <div class="w-full flex justify-center px-10 md:px-0 items-center">
       <div class="min-h-screen space-y-4">
         <h1 class="text-white text-2xl font-bold mb-6">Lingkup Penerapan AI</h1>
@@ -48,7 +48,8 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import NamaFloating from './NamaFloating.vue'
 import { lingkupAI } from '../data/data.js'
 import FooterView from './FooterView.vue'
-import Aurora from '@/component/Aurora/Aurora.vue'
+import AuroraView from './AuroraView.vue'
+
 const bgImage = ref('/dddd.png')
 
 const updateBg = () => {

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/views/TestAurora.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1767882670189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1767882685499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </div>\n </template>\n \n <script setup lang=\"ts\">\n-import Aurora from './Aurora.vue'\n+import Aurora from '../component/Aurora/Aurora.vue'\n </script>\n \n <style scoped>\n .aurora-container {\n"
+                }
+            ],
+            "date": 1767882670189,
+            "name": "Commit-0",
+            "content": "<template>\n  <div class=\"aurora-container\">\n    <Aurora\n      :color-stops=\"['#7cff67', '#171D22', '#7cff67']\"\n      :amplitude=\"1.0\"\n      :blend=\"0.5\"\n      :speed=\"1.0\"\n      :intensity=\"1.0\"\n      class=\"w-full h-full\"\n    />\n  </div>\n</template>\n\n<script setup lang=\"ts\">\n  import Aurora from \"./Aurora.vue\";\n</script>\n\n<style scoped>\n  .aurora-container {\n    width: 100%;\n    height: 500px;\n    position: relative;\n    overflow: hidden;\n  }\n</style>\n"
+        }
+    ]
+}
