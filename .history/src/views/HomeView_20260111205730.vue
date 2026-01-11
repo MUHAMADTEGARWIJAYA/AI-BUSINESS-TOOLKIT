@@ -10,7 +10,7 @@
     <div class="w-full">
       <NamaFloating />
     </div>
-    <!-- <div class="aurora-container">
+    <!-- <!-- <div class="aurora-container">
       <Aurora
         :color-stops="['#7cff67', '#171D22', '#7cff67']"
         :amplitude="1.0"
@@ -18,7 +18,7 @@
         :speed="1.0"
         :intensity="1.0"
         class="w-full h-full"
-      />
+      /> -->
     </div> -->
     <div class="w-full flex justify-center px-10 md:px-0 items-center">
       <div class="min-h-screen space-y-4">
@@ -48,7 +48,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import NamaFloating from './NamaFloating.vue'
 import { lingkupAI } from '../data/data.js'
 import FooterView from './FooterView.vue'
-// import Aurora from '@/component/Aurora/Aurora.vue'
+import Aurora from '@/component/Aurora/Aurora.vue'
 const bgImage = ref('/dddd.png')
 
 const updateBg = () => {

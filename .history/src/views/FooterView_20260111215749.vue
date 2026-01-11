@@ -56,7 +56,7 @@
           <li class="flex gap-4 mt-3 items-center">
             <!-- Instagram -->
             <a
-              href="https://instagram.com/ab23.generation"
+              href="https://instagram.com/usernamekamu"
               target="_blank"
               rel="noopener noreferrer"
               class="hover:text-pink-500 transition"
@@ -79,7 +79,7 @@
             </a>
 
             <!-- Email -->
-            <!-- <a
+            <a
               href="mailto:emailkamu@gmail.com"
               class="hover:text-blue-400 transition"
               title="Email"
@@ -94,7 +94,7 @@
                   d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
                 />
               </svg>
-            </a> -->
+            </a>
           </li>
         </ul>
       </div>

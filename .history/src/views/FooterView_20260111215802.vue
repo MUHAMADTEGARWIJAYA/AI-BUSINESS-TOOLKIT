@@ -56,7 +56,7 @@
           <li class="flex gap-4 mt-3 items-center">
             <!-- Instagram -->
             <a
-              href="https://instagram.com/ab23.generation"
+              href="https://instagram.com/usernamekamu"
               target="_blank"
               rel="noopener noreferrer"
               class="hover:text-pink-500 transition"

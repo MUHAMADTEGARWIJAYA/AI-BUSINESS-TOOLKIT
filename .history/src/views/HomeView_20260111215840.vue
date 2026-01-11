@@ -48,7 +48,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import NamaFloating from './NamaFloating.vue'
 import { lingkupAI } from '../data/data.js'
 import FooterView from './FooterView.vue'
-// import Aurora from '@/component/Aurora/Aurora.vue'
+import Aurora from '@/component/Aurora/Aurora.vue'
 const bgImage = ref('/dddd.png')
 
 const updateBg = () => {

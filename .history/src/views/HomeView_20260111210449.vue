@@ -20,18 +20,33 @@
         class="w-full h-full"
       />
     </div> -->
-    <div class="w-full flex justify-center px-10 md:px-0 items-center">
-      <div class="min-h-screen space-y-4">
+    <div class="w-full flex justify-center px-10 md:px-0 items-center relative overflow-hidden">
+      <!-- Aurora Background -->
+      <div class="absolute inset-0 z-0 pointer-events-none">
+        <Aurora
+          :color-stops="['#FFFFFF', '#60A5FA', '#E0F2FE']"
+          :amplitude="1.0"
+          :blend="0.6"
+          :speed="1.0"
+          :intensity="1.0"
+          class="w-full h-full"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="min-h-screen space-y-4 relative z-10">
         <h1 class="text-white text-2xl font-bold mb-6">Lingkup Penerapan AI</h1>
 
         <router-link v-for="item in lingkupAI" :key="item.id" :to="item.route" class="block">
-          <div class="flex items-center gap-4 border border-neutral-700 rounded-xl p-4 transition">
+          <div
+            class="flex items-center gap-4 border border-neutral-700 rounded-xl p-4 transition bg-black/40 backdrop-blur-md"
+          >
             <img
               :src="item.image"
               alt="icon"
               class="w-20 h-20 object-contain bg-white rounded-lg p-3"
             />
-            <h2 class="text-black text-lg font-semibold">
+            <h2 class="text-white text-lg font-semibold">
               {{ item.title }}
             </h2>
           </div>
@@ -48,7 +63,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import NamaFloating from './NamaFloating.vue'
 import { lingkupAI } from '../data/data.js'
 import FooterView from './FooterView.vue'
-// import Aurora from '@/component/Aurora/Aurora.vue'
+import Aurora from '@/component/Aurora/Aurora.vue'
 const bgImage = ref('/dddd.png')
 
 const updateBg = () => {
