@@ -52,8 +52,7 @@
         <h3 class="text-gray-400 text-lg font-semibold mb-3">Kontak</h3>
         <ul class="space-y-2 text-sm text-gray-400">
           <li>Instagram: @ab23.generation</li>
-          <li>Administrasi bisnis 2023</li>
-          <li>Universitas Sahid Surakarta</li>
+          <li>Administrasi bisnis 2023 Universitas Sahid Surakarta</li>
           <li class="flex gap-4 mt-3 items-center">
             <!-- Instagram -->
             <a
