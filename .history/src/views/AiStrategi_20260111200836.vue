@@ -3,7 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { aistrategi } from '@/data/data.js'
 const bgImage = ref('/keuangan.png')
 const updateBg = () => {
-  bgImage.value = window.innerWidth >= 768 ? '/strategi.png' : '/7.png'
+  bgImage.value = window.innerWidth >= 768 ? '/sdm.png' : '/4.png'
 }
 
 onMounted(() => {

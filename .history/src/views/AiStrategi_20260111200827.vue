@@ -3,7 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { aistrategi } from '@/data/data.js'
 const bgImage = ref('/keuangan.png')
 const updateBg = () => {
-  bgImage.value = window.innerWidth >= 768 ? '/strategi.png' : '/7.png'
+  bgImage.value = window.innerWidth >= 768 ? '/sdm.png' : '/4.png'
 }
 
 onMounted(() => {
@@ -20,13 +20,9 @@ onUnmounted(() => {
   <div class="min-h-screen bg-white">
     <div class="w-full max-w-full mb-10">
       <!-- Background Image -->
-      <!-- <div
+      <div
         class="w-full h-96 rounded-xl bg-cover bg-no-repeat bg-center"
         style="background-image: url('/Devisi\ Strategi\ kelompok\ 5.png')"
-      ></div> -->
-      <div
-        class="w-full md:h-96 h-52 rounded-xl bg-contain md:bg-cover bg-no-repeat bg-center"
-        :style="{ backgroundImage: `url('${bgImage}')` }"
       ></div>
     </div>
 
