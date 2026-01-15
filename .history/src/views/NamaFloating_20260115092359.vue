@@ -51,46 +51,59 @@
 import { computed } from 'vue'
 
 // Line 1: Nama 1–10 (gerak ke kanan)
-const line1 = ['Dany ', 'Flo', 'Alva', 'Shela', 'Bella', 'Salwa', 'Yayang', 'Hana', 'Rasti', 'Ria']
+const line1 = [
+  'Dany ',
+  'Flo',
+  'Alva',
+  'Shela',
+  'Bella',
+  'Salwa',
+  'Yayang',
+  'Hana',
+  'Rasti',
+  'Ria',
+  'Nafi',
+  'Amanah',
+  'Kumoriu',
+]
 
 // Line 2: Nama 11–21 (gerak ke kiri)
 const line2 = [
+  'Kooqies',
+  'Daren',
+  'Vieona',
+  'hara',
+  'Papoy',
+  'soedjat',
+  'vinss',
+  'amahdy',
+  'amara',
   'Locita',
-  'Amanda',
-  'Ade',
-  'Davin',
-  'Agas',
-  'Isma',
-  'Rakan',
-  'Rina',
-  'Dela',
-  'Nafi',
-  'Amanah',
-  'Balqis',
+  'Lunalee',
 ]
 
-//Dany
-// Flo
-// Alva
-// Shela
-// Bella
-// Salwa
-// Yayang
-// Hana
-// Rasti
-// Ria
-// Nafi
-// Amanah
-// Balqis
-// Locita
-// Amanda
-// Ade
-// Davin
-// Agas
-// Isma
-// Rakan
-// Rina
-// Dela
+Dany
+Flo
+Alva
+Shela
+Bella
+Salwa
+Yayang
+Hana
+Rasti
+Ria
+Nafi
+Amanah
+Balqis
+Locita
+Amanda
+Ade
+Davin
+Agas
+Isma
+Rakan
+Rina
+Dela
 // Duplicate arrays untuk seamless loop
 const line1Double = computed(() => [...line1, ...line1])
 const line2Double = computed(() => [...line2, ...line2])

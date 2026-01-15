@@ -69,7 +69,7 @@ const line2 = [
   'Balqis',
 ]
 
-//Dany
+Dany
 // Flo
 // Alva
 // Shela

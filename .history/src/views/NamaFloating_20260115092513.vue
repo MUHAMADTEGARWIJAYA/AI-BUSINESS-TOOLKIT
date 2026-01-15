@@ -69,28 +69,28 @@ const line2 = [
   'Balqis',
 ]
 
-//Dany
-// Flo
-// Alva
-// Shela
-// Bella
-// Salwa
-// Yayang
-// Hana
-// Rasti
-// Ria
-// Nafi
-// Amanah
-// Balqis
-// Locita
-// Amanda
-// Ade
-// Davin
-// Agas
-// Isma
-// Rakan
-// Rina
-// Dela
+Dany
+Flo
+Alva
+Shela
+Bella
+Salwa
+Yayang
+Hana
+Rasti
+Ria
+Nafi
+Amanah
+Balqis
+Locita
+Amanda
+Ade
+Davin
+Agas
+Isma
+Rakan
+Rina
+Dela
 // Duplicate arrays untuk seamless loop
 const line1Double = computed(() => [...line1, ...line1])
 const line2Double = computed(() => [...line2, ...line2])
