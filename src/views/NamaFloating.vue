@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-fit bg-white overflow-hidden py-10">
     <h1 class="text-lg font-bold flex justify-center text-blue-900 mb-5">
-      Supervised By: Raden Arya
+      Supervised By: Arya Budi Sutopo
     </h1>
 
     <div class="">
